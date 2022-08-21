@@ -1,12 +1,13 @@
 {
-  "name": "geocode",
+  "name": "geotrace",
   "version": "1.0.0",
-  "description": "",
+  "description": "application de gestion de trace de randonnée",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
-  "author": "",
+  "author": "Rémi PONCHE",
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
